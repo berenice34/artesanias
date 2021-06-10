@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 jun 2021, 14:22:20
+    Author     : Jocelyn Rodriguez
+*/
+
+body{
+      
+     background-image: url('../css/petaca.jpg');
+      
+}
+#p1{
+    color: black;
+   font-size: large;
+   font-family:georgia;
+}
+.clase{
+   color: black;
+   font-size:xx-large;
+   
+}
+
+#menu ul{
+  list-style: none;
+}
+ul {
+  text-justify: 12px;
+  
+  list-style: none;
+  margin: 2px;
+   overflow: hidden;
+  background: #333;
+   padding: 0px;
+   max-width: 600px;  
+}
+li {
+  float: left;
+}
+li a {
+  
+  color: white; 
+  text-justify: 12px;
+  text-align: center;
+   padding: 10px;
+  text-decoration: none;
+   float: none !important;
+    display: block;
+}
+li a:hover {
+  background-color: lightcoral;
+ 
+}
+.clases{
+    background-color: white;
+    color: black;
+    
+}
+
+.cs{
+     background-color: white;
+}
+
+.caja1{
+  color:  green;
+  
+}
+.pd{
+  color: black;
+}
+#bt{
+  color:  firebrick;
+}
+#dd{
+  color:  darkslategrey;
+    font-size:  medium;
+}
+form#pago {
+margin:auto;
+background: cornflowerblue;
+color: black;
+font-size: 12px;
+padding: 30px;
+width: 350px;
+border:solid 2px ;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
+
+form#pago fieldset {
+border: none;
+}
+
+form#pago input{
+font-size:12px;
+
+
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+float: right;
+margin-right: 15px;
+width: 200px;
+}
+
+form#pago ol li {
+line-height: 25px;
+list-style: none;
+}
+
+form#pago [required]{
+border:solid 1px red;
+}
+
+input:required {
+outline: 1px ;
+}
